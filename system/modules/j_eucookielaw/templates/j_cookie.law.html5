@@ -2,7 +2,7 @@
  
 // Add the style sheet
 if (!$_COOKIE['EU_COOKIE_LAW_CONSENT']) {
-	$GLOBALS['TL_CSS'][] = TL_ASSETS_URL . 'system/modules/j_eucookielaw/css/jquery.eucookielaw.popup.css||static';
-	$GLOBALS['TL_JAVASCRIPT'][] = TL_ASSETS_URL . 'system/modules/j_eucookielaw/js/jquery.eucookielaw.popup.js||static';
+	$GLOBALS['TL_CSS'][] = TL_ASSETS_URL . 'system/modules/j_eucookielaw/assets/css/jquery.eucookielaw.popup.css||static';
+	$GLOBALS['TL_JAVASCRIPT'][] = TL_ASSETS_URL . 'system/modules/j_eucookielaw/assets/js/jquery.eucookielaw.popup.js||static';
 }
 ?>
