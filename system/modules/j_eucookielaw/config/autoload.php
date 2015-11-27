@@ -22,5 +22,5 @@ ClassLoader::addNamespaces(array
  */
 TemplateLoader::addFiles(array
 (
-	'j_cookie.law'        => 'system/modules/j_eucookielaw/templates/jquery',
+	'j_cookie.law'        => 'system/modules/j_eucookielaw/templates',
 ));
