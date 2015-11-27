@@ -1,0 +1,8 @@
+<?php
+ 
+// Add the style sheet
+if (!$_COOKIE['EU_COOKIE_LAW_CONSENT']) {
+	$GLOBALS['TL_CSS'][] = TL_ASSETS_URL . 'assets/jquery/cookie/css/jquery.eucookielaw.popup.css||static';
+	$GLOBALS['TL_JAVASCRIPT'][] = TL_ASSETS_URL . 'assets/jquery/cookie/js/jquery.eucookielaw.popup.min.js||static';
+}
+?>
