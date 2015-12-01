@@ -37,7 +37,7 @@ $.fn.euCookieLawPopup = (function() {
 		buttonContinueTitle : 'Nadaljuj',
 		buttonLearnmoreTitle : 'Preberi več',
 		buttonLearnmoreOpenInNewWindow : true,
-		agreementExpiresInDays : 30,
+		agreementExpiresInDays : 365,
 		autoAcceptCookiePolicy : false,
 		htmlMarkup : null
 	};
